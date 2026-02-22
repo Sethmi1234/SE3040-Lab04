@@ -1,3 +1,7 @@
+ feature-Sethmi-module
+const myModule = require('./my-module.js'); 
+console.log(myModule.myFunction()); 
+
 feature-Sethmi-promises
 const myPromise = new Promise((resolve, reject) => { 
   if (condition) { 
@@ -23,4 +27,5 @@ async function myFunction() {
 } 
  
 myFunction();
+ main
  main
